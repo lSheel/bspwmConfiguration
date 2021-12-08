@@ -1,0 +1,21 @@
+rofi 
+picom
+feh
+polybar
+zsh p10k
+	usermod --shell /usr/bin/zsh tuUsuario
+	usermod --shell /usr/bin/zsh root
+	Evitar problema de permisos a la hora de desde el usuario root migrar con 'su' al usuario con bajos privilegios, ejecutamos los siguientes comandos:
+
+	chown myuser:myuser /root
+	chown myuser/myuser /root/.cache -R
+	chown myuser/myuser  /root/.local -R
+
+bat
+lsd 
+fzf
+ranger
+slim y slimlock
+ 
+
+git clone https://github.com/VaughnValle/blue-sky.git
